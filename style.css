@@ -1,0 +1,81 @@
+/* // $color1: #26292b;
+// $color2: #97adba;
+// $color3: #c2def0; 
+$links: #74d6b2; */
+
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #26292b;
+    color: white;
+}
+
+nav{
+    background-color: #97adba;
+    color: #26292b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+#title{
+    font-size: 1.8rem;
+}
+
+#title:hover{
+    color: #26292b;
+}
+
+.nav-item{
+    margin: auto 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.nav-item:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#j-main{
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+#overlay-header{
+    color: white;
+    z-index: 1;
+    position: absolute;
+    top: 10rem;
+    text-align: center;
+    width: 99%;
+    height: auto;
+}
+
+#desc-overlay{
+    font-size: 2rem;
+}
+
+#buy{
+    position: absolute;
+    top: 70vh;
+    left: 45vw;
+    font-size: 1.2rem;
+    color: #c2def0;
+    cursor: pointer;
+}
+
+#buy:hover{
+    color: #97adba;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
