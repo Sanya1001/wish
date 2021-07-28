@@ -1,18 +1,17 @@
-/* // $color1: #26292b;
-// $color2: #97adba;
-// $color3: #c2def0; 
-$links: #74d6b2; */
+/* $gold: #fabc11 */
+/* $idk: #27cfb0 */
+/* $dark: #179c83 */
 
 body{
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: #26292b;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 nav{
-    background-color: #97adba;
+    background-color: #27cfb0;
     color: #26292b;
     display: flex;
     flex-direction: row;
@@ -22,10 +21,11 @@ nav{
     position: fixed;
     width: 100%;
     height: auto;
+    z-index: 5;
 }
 
 #title{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 #title:hover{
@@ -43,13 +43,12 @@ nav{
 }
 
 #j-main{
-    width: 100%;
-    height: auto;
+    max-width: 90%;
     z-index: 0;
 }
 
 #overlay-header{
-    color: white;
+    color: black;
     z-index: 1;
     position: absolute;
     top: 10rem;
@@ -64,18 +63,64 @@ nav{
 
 #buy{
     position: absolute;
-    top: 70vh;
+    top: 65vh;
     left: 45vw;
     font-size: 1.2rem;
-    color: #c2def0;
+    font-weight: bold;
+    color: #07c4a1;
     cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 5px;
 }
 
 #buy:hover{
-    color: #97adba;
+    color: white;
+    background-color: #27cfb0;
 }
 
 a{
     text-decoration: none;
     color: inherit;
+}
+
+#products{
+    width: 100%;
+}
+
+#products-header{
+    font-size: 1.8rem;
+    background-color: #07c4a1;
+    color: #26292b;
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem 0;
+    padding-left: 0.5rem;
+}
+
+#cat-header{
+    font-size: 1.2rem;
+}
+
+#category{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    box-shadow: 0 0 5px #0d4e42;
+    color: #26292b;
+    margin: 1rem 0;
+}
+
+.cat-item{
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    color: #179c83;
+    font-weight: bold;
+}
+
+.cat-item:hover{
+    color: white;
+    background-color: #179c83;
 }
