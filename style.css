@@ -125,6 +125,20 @@ a{
     background-color: #179c83;
 }
 
+#earrings{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.prod-img{
+    max-height: 500px;
+    max-width: 400px;
+    padding: 1rem;
+}
+
 @media only screen and (max-width: 800px) {
     .nav-item{
         margin: auto 1rem;
